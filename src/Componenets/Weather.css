@@ -1,0 +1,118 @@
+.weatherApp {
+    width: 60%;
+    height: 100%;
+    border: 2px solid #444;
+    margin: 50px auto;
+}
+
+.title {
+    padding-left: 10rem;
+    display: flex;
+    font-size: 16px;
+    margin: 2rem;
+}
+
+input[type="text"] {
+    text-align: center;
+    margin: 3rem 3rem;
+    padding: 1rem;
+    border-bottom: 1px solid #444 !important;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+}
+
+input[type="text"]:focus {
+    margin: 3rem 3rem;
+    padding: 1rem;
+    border-bottom: 1px solid #444 !important;
+    border: none;
+    margin: 2rem;
+    font-size: 16px;
+    background-color: none;
+    outline: none;
+}
+
+.weatherApp button {
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    border: none;
+    background: blueviolet;
+    color: white !important;
+    width: 200px;
+}
+
+.weatherApp button:focus {
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    border: none;
+    background: blueviolet;
+    color: white !important;
+    width: 200px;
+}
+
+.section1 {
+    width: auto;
+    height: auto;
+    border: 1px solid #444;
+    padding: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.section1 h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mainCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTitle {
+    margin: 2rem auto;
+    color: #777;
+    font-size: 16px;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-details span {
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+@media screen and (max-width:780px) {
+    form {
+        width: 60%;
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        width: 150px;
+        margin: auto;
+    }
+}
